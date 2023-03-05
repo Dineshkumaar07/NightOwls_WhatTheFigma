@@ -32,14 +32,15 @@ const Homepage = () => {
             </div>
             <div className='mt-8'>
                 <h1 className='text-2xl text-white font-semibold'>Popular on Netflix</h1>
-                <div className='flex'>
-                <Card imageNo={1}/>
-                <Card imageNo={2}/>
-                <Card imageNo={3}/>
-                <Card imageNo={4}/>
-                <Card imageNo={5}/>
+                <div className='flex w-4/5 justify-between gap-9 mt-4'>
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
                 </div>
             </div>
+            
 
         </div>
 

@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Card = (props) => {
-    const image = `images/homepage/${props.imageNo}.png`
-    const style = `bg-[url(${image})] w-36 h-36 bg-cover`
+    
+    const style = `bg-[url(images/homepage/1.png)] w-36 h-36 bg-cover`
   return (
     <div className={style}>
         <div className='flex items-end justify-between h-full px-2 pb-1'>
